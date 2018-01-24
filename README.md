@@ -1,4 +1,4 @@
-# react-currency-input
+# md-react-currency-input
 
 An ES2015 react component for currency. Supports custom decimal and thousand separators as well as precision.
 
@@ -6,18 +6,15 @@ An ES2015 react component for currency. Supports custom decimal and thousand sep
 
 ## Changes
 
-## v1.3.0:
+## v1.3.4-fix:
 
-- Deprecated "onChange" option in favor of "onChangeEvent". This fixes the argument order to better match React's default input handling
-- Updated dependencies to React 15
-- Added parseFloat polyfill
-- Persist events to deal with an issue of event pooling
-- Other bug fixes.
+- Safari and ie focus bug fix
+ 
 
 ## Installation
 
 ```
-npm install react-currency-input --save
+npm install md-react-currency-input --save
 ```
 
 ## Integration
@@ -26,7 +23,7 @@ You can store the value passed in to the change handler in your state.
 
 ```javascript
 import React from 'react'
-import CurrencyInput from 'react-currency-input';
+import CurrencyInput from 'md-react-currency-input';
 
 const MyApp = React.createClass({
     getInitialState(){
@@ -51,7 +48,7 @@ You can also assign a reference then access the value using a call to getMaskedV
 
 ```javascript
 import React from 'react'
-import CurrencyInput from 'react-currency-input';
+import CurrencyInput from 'md-react-currency-input';
 
 const MyApp = React.createClass({
     handleSubmit(event){
