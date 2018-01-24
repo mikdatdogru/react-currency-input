@@ -2,7 +2,7 @@
 
 An ES2015 react component for currency. Supports custom decimal and thousand separators as well as precision.
 
-[![Build Status](https://travis-ci.org/jsillitoe/react-currency-input.svg?branch=master)](https://travis-ci.org/jsillitoe/react-currency-input)
+[![Build Status](https://travis-ci.org/jsillitoe/md-react-currency-input.svg?branch=master)](https://travis-ci.org/jsillitoe/md-react-currency-input)
 
 ## Changes
 

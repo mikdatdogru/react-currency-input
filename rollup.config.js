@@ -7,11 +7,11 @@ import peerDeps from 'rollup-plugin-peer-deps-external';
 
 const format = process.env.NODE_ENV;
 const isUmd = format === 'umd';
-const file = `lib/react-currency-input.${isUmd ? 'min' : format}.js`
+const file = `lib/md-react-currency-input.${isUmd ? 'min' : format}.js`
 
 const config = {
     input: './src/index.js',
-    name: 'react-currency-input',
+    name: 'md-react-currency-input',
     sourcemap: true,
     output: {
         file,

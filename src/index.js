@@ -132,12 +132,13 @@ class CurrencyInput extends Component {
    * @returns {XML}
    * @see https://facebook.github.io/react/docs/react-component.html#componentwillupdate
    */
+ /*
   componentWillUpdate() {
     let node = ReactDOM.findDOMNode(this.theInput);
     this.inputSelectionStart = node.selectionStart;
     this.inputSelectionEnd = node.selectionEnd;
   }
-
+*/
 
   /**
    * Component lifecycle function.

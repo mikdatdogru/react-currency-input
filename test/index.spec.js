@@ -9,7 +9,7 @@ import setup from './setup'
 
 chai.use(sinonChai);
 
-describe('react-currency-input', function(){
+describe('md-react-currency-input', function(){
 
     before('setup dom', function(){
         setup(); // setup the jsdom
