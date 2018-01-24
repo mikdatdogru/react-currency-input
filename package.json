@@ -1,6 +1,6 @@
 {
   "name": "md-react-currency-input",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "React component for inputing currency amounts safari and ie fix verison",
   "main": "lib/md-react-currency-input.cjs.js",
   "jsnext:main": "lib/md-react-currency-input.es.js",

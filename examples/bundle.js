@@ -18903,14 +18903,13 @@ var CurrencyInput = function (_Component) {
      * @returns {XML}
      * @see https://facebook.github.io/react/docs/react-component.html#componentwillupdate
      */
-
-  }, {
-    key: 'componentWillUpdate',
-    value: function componentWillUpdate() {
-      var node = _reactDom2.default.findDOMNode(this.theInput);
-      this.inputSelectionStart = node.selectionStart;
-      this.inputSelectionEnd = node.selectionEnd;
-    }
+    /*
+     componentWillUpdate() {
+       let node = ReactDOM.findDOMNode(this.theInput);
+       this.inputSelectionStart = node.selectionStart;
+       this.inputSelectionEnd = node.selectionEnd;
+     }
+    */
 
     /**
      * Component lifecycle function.
